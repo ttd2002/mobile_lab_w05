@@ -22,13 +22,13 @@ export default function Screen1() {
 
         var mau = '';
         if (img == '/static/media/vs_silver.a64810c71fe2bda8952f.png')
-            mau = 'Silver';
+            mau = 'Bạc';
         else if (img == '/static/media/vs_blue.6f9fdf8955497b5153d5.png')
-            mau = 'Blue';
+            mau = 'Xanh dương';
         else if (img == '/static/media/vs_red.0ba29d74ac59ed89211a.png')
-            mau = 'Red';
+            mau = 'Đỏ';
         else if (img == '/static/media/vs_black.652441dbf7bc2dfd9366.png')
-            mau = 'Black';
+            mau = 'Đen';
         alert(`Đã chọn mua màu ${mau}`);
 
     }
